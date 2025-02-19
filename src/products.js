@@ -1,8 +1,8 @@
-import React,{Component} from 'react'
+import React from 'react'
 import './products.css'
 
 
-export default class Products extends Component
+export default class Products extends React.Component
 {
  data = [
     ['React',500],
